@@ -8,7 +8,7 @@ body {
 
 h1,
 h2 {
-    color: black;
+    color: mediumpurple;
     padding: 0rem 0;
     text-align: center;
     text-transform: uppercase;
@@ -82,13 +82,14 @@ button {
 }
 
 .dive {
-    height: 580px;
+    height: auto;
     width: 800px;
     border: 5px solid #FFFFFF;
     border-radius: 10px;
     background-color: white;
-    margin-top: 2rem;
+    margin-top: 2rem auto;
     margin-left: 19rem;
+    text-align: center;
 }
 
 .dive2 {
@@ -116,4 +117,16 @@ button {
     padding: 10px;
     text-align: center;
     display: none;
+}
+
+.imagen {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+
+.texto {
+    font-family: Courier New, Courier, monospace;
+    font-size: large;
+    color: blueviolet;
 }
